@@ -6,6 +6,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
+/*root variable*/
 :root{
     --primary-color: #1D4ED8;
 }
@@ -14,9 +15,14 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
+/*container*/
 .container{
     padding-left: 1rem;
-    padding right: 1rem;
+    padding-right: 1rem;
 }
 
 .container-center{
@@ -24,9 +30,10 @@ body{
     margin: auto;
 }
 
+/*links*/
 .links {
-    padding: 5px 5px;
-    /* border-radius: 0.5rem; */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
     text-decoration: none;
 }
 
