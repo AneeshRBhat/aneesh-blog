@@ -47,7 +47,7 @@ hr {
     color: var(--primary-color);
 }
 
-.non-bullet {
+.list-non-bullet {
     list-style: none;
 }
 
