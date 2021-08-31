@@ -15,6 +15,7 @@ body {
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -62,6 +63,7 @@ hr {
 /* navigation */
 .navigation .link {
     color: white;
+    border-radius: 0px;
 }
 
 .navigation {
@@ -80,10 +82,8 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: bold;
-    color: white;
-    border-bottom: 2px solid white;
-    border-radius: 0;
+    font-weight: bold; 
+    border-bottom: 3px solid white;   
 }
 
 
