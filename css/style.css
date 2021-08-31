@@ -11,6 +11,7 @@ body {
     --primary-color: #1D4ED8;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
+    --story-link: #A43423;
 }
 
 body {
@@ -49,6 +50,14 @@ hr {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+.link-intext {
+    color: var(--primary-color);
+}
+
+/* .link-story:hover {
+    color: var(--story-link);
+} */
 
 .list-non-bullet {
     list-style: none;
