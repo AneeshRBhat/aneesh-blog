@@ -37,13 +37,15 @@ hr {
     text-decoration: none;
 }
 
-.primary-link {
+.link-primary {
     background-color: var(--primary-color);
     color:white;
 }
 
-.secondary-link {
+.link-secondary {
     border: 1px solid var(--primary-color);
     color: var(--primary-color)
 }
+
+
 
