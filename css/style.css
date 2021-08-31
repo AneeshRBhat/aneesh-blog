@@ -7,11 +7,12 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 /*root variable*/
-:root{
+:root {
     --primary-color: #1D4ED8;
+    --gray-web: #7D7C7A;
 }
 
-body{
+body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -20,18 +21,18 @@ hr {
 }
 
 /*container*/
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 800px;
     margin: auto;
 }
 
 /*links*/
-.links {
+.link {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -39,7 +40,7 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
 }
 
 .link-secondary {
@@ -57,4 +58,51 @@ hr {
 }
 
 
+/* navigation */
+.navigation .link {
+    color: white;
+}
 
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.nav-header {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+}
+
+
+/* header */
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    color: var(--gray-web);
+    text-align: center;
+}
+
+.hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
