@@ -34,6 +34,11 @@ hr {
     margin: auto;
 }
 
+/* spaces */
+.margin-md {
+    margin: 3rem auto;
+
+}
 /*links*/
 .link {
     padding: 0.5rem 1rem;
@@ -69,6 +74,8 @@ hr {
 }
 
 
+
+
 /* navigation */
 .navigation .link {
     color: white;
@@ -92,14 +99,15 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: bold; 
-    border-bottom: 3px solid white;   
+    font-weight: bold;
+    border-bottom: 3px solid white;
 }
 
 
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -114,9 +122,10 @@ hr {
     text-align: center;
 }
 
-.hero-heading .heading-inverted {
+.hero-heading .heading-inverted, .hero .heading-colored {
     color: var(--primary-color);
 }
+
 
 /* section */
 .section {
@@ -145,4 +154,8 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.msg-soon {
+    color: var(--dark-grey)
 }
