@@ -44,7 +44,16 @@ hr {
 
 .link-secondary {
     border: 1px solid var(--primary-color);
-    color: var(--primary-color)
+    color: var(--primary-color);
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 
