@@ -9,7 +9,7 @@ body {
 /*root variable*/
 :root {
     --primary-color: #1D4ED8;
-    --gray-web: #7D7C7A;
+    --dark-grey: #6B7280;
 }
 
 body {
@@ -99,7 +99,7 @@ hr {
 
 .hero .hero-heading {
     font-size: 2rem;
-    color: var(--gray-web);
+    color: var(--dark-grey);
     text-align: center;
 }
 
