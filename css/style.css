@@ -157,5 +157,9 @@ hr {
 }
 
 .msg-soon {
-    color: var(--dark-grey)
+    color: var(--dark-grey);
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+
 }
