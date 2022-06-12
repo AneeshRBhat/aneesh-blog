@@ -232,3 +232,23 @@ figure figcaption, figure a {
     opacity: 80%;
     text-align: right;
 }
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: normal;
+    margin-right: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    .navigation .link {
+        padding: 0.5rem 0.5rem;
+    }
+}
