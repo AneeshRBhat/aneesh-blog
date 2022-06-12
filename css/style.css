@@ -187,7 +187,7 @@ hr {
     color: var(--primary-color);
     text-decoration: none;
     padding: 1rem;
-    margin-top: 1rem;
+    margin: 1rem;
     display: inline-block;
 }
 
@@ -198,7 +198,7 @@ hr {
 }
 
 .blog-page-heading {
-    text-align: center
+    text-align: center;
 }
 
 #plunge-hero {
@@ -208,7 +208,6 @@ hr {
 }
 
 .blog-page-footer {
-    border: solid 1px green;
     padding: 1rem;
     color: var(--dark-grey);
     opacity: 75%;
