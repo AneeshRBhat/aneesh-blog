@@ -194,7 +194,8 @@ hr {
 .blog-page-body {
     width: 90%;
     margin: auto;
-
+    padding: 0px;
+    /* border: 1px solid blue; */
 }
 
 .blog-page-heading {
@@ -202,7 +203,13 @@ hr {
     
 }
 
+figure {
+    /* border: 1px solid red; */
+    margin: auto 0px;
+}
+
 #plunge-hero {
+    /* border: 1px solid green; */
     width: 100%;
     display: block;
     margin: auto;
