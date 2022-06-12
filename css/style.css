@@ -99,8 +99,7 @@ hr {
 }
 
 .navigation .link-active {
-    font-weight: bold;
-    border-bottom: 3px solid white;
+    font-weight: bolder;
 }
 
 
