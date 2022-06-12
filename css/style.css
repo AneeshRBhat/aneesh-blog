@@ -163,3 +163,55 @@ hr {
     line-height: 200px;
 
 }
+
+.blog-headings-link {
+    text-decoration:none;
+    color: var(--primary-color);
+}
+
+
+
+.blog-headings-text {
+    padding-bottom: 0px;
+    margin-bottom: 0px;    
+}
+
+
+
+.blog-date{
+    font-size: small;
+    color: var(--dark-grey);
+}
+
+.blog-page-backlink {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.blog-page-body {
+    width: 80%;
+    margin: auto;
+
+}
+
+.blog-page-heading {
+    text-align: center
+}
+
+#plunge-hero {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.blog-page-footer {
+    border: solid 1px green;
+    padding: 1rem;
+    color: var(--dark-grey);
+    opacity: 75%;
+    text-align: right;
+    margin: 1rem;
+}
