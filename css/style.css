@@ -5,6 +5,7 @@ body {
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 /*root variable*/
 :root {
@@ -204,12 +205,11 @@ hr {
 
 figure {
     /* border: 1px solid red; */
-    margin: auto 0px;
-}
+    margin: auto 0px;}
 
 #plunge-hero {
     /* border: 1px solid green; */
-    width: 100%;
+    width: 60%;
     display: block;
     margin: auto;
 }
@@ -230,7 +230,7 @@ figure figcaption, figure a {
     font-size: small;
     color: var(--dark-grey);
     opacity: 80%;
-    text-align: right;
+    text-align: center;
 }
 
 .checkbtn {
@@ -251,4 +251,9 @@ figure figcaption, figure a {
     .navigation .link {
         padding: 0.5rem 0.5rem;
     }
+}
+
+.font-monte {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5ch;
 }
